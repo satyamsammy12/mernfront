@@ -22,7 +22,7 @@ const Home = () => {
   };
   const fetchProduct = async () => {
     try {
-      const url = "http://localhost:3000/products";
+      const url = "https://mernback-l2q3.onrender.com/products";
       const headers = {
         headers: { Authorization: localStorage.getItem("Token") },
       };
