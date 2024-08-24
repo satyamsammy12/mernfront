@@ -24,7 +24,7 @@ function Login() {
       return handleError("All field must be required");
     }
     try {
-      const url = "http://localhost:3000/auth/login";
+      const url = "https://mernback-l2q3.onrender.com/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
