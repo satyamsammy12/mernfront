@@ -24,7 +24,7 @@ function Signup() {
       return handleError("All field must be required");
     }
     try {
-      const url = "http://localhost:3000/auth/signup";
+      const url = "https://mernback-l2q3.onrender.com/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
